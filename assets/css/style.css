@@ -16,6 +16,7 @@ img{
 }
 p{
     color: #84817a;
+    line-height: 25px;
 }
 .text-center{
   text-align: center;
@@ -115,11 +116,9 @@ p{
 }
 .single-box {
 	width: 320px;
-	background-color: #EA2C58;
 	padding: 30px 25px;
 	text-align: justify;
 	border-radius: 10px;
-  box-shadow: 10px 10px 20px #84817a;
 }
   .single-box img {
     width: 50px;
