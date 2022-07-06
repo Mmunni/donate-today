@@ -14,21 +14,34 @@ a{
 img{
     max-width: 100%;
 }
+p{
+    color: #84817a;
+}
+.text-center{
+  text-align: center;
+}
+.pt-100{
+  padding-top: 100px;
+}
+.pb-100{
+  padding-bottom: 100px;
+}
 .container{
     width: 1170px;
     margin: 0 auto;
 }
-.text-center{
-    text-align: center;
+/* Common Section Title Css */
+.section-title h3 {
+  font-size: 40px;
+  text-transform: capitalize;
 }
-.pt-100{
-    padding-top: 100px;
-}
-.pb-100{
-    padding-bottom: 100px;
+.section-title p {
+  padding: 20px 0 50px;
+  text-transform: capitalize;
+ 
 }
 /* Common Button Css */
-.btn a{
+.btn a, .btn input, .btn-contact input{
 	background-color: #EA2C58;
 	color: #fff;
 	padding: 12px 30px;
@@ -37,8 +50,9 @@ img{
     display: inline-block;
     font-weight: 600;
     font-size: 17px;
+    border: none;
 }
-/* Banner Css */
+/* Banner Area Css */
 .banner-area{
     background-image: url(../images/banner/banner.jpg);
     background-position: center;
@@ -47,7 +61,7 @@ img{
 }
 .banner-content {
 	color: #fff;
-	padding-top: 250px;
+	padding-top: 225px;
 	text-align: center;
 }
 .banner-content h1 {
@@ -57,9 +71,10 @@ img{
   .banner-content p {
     padding: 20px 0 30px;
     font-size: 17px;
+    color: #fff;
   }
 
-/* Donation Css */
+/* Donation Area Css */
   .donation-amount-box {
 	display: flex;
 	justify-content: center;
@@ -73,16 +88,6 @@ img{
 	border-radius: 5px;
 	color: #596275;
 }
-  
-.section-title h3 {
-    font-size: 40px;
-    text-transform: capitalize;
-  }
-  .section-title p {
-    padding: 20px 0 30px;
-    color: #84817a;
-  }
-  
   .single-donation-amount span {
     font-weight: 600;
     font-size: 25px;
@@ -102,7 +107,7 @@ img{
 	outline: none;
     margin: 30px 0 20px;
 }
-/* Donate plan Css */
+/* Donate plan Area Css */
 .donate-plan-box {
 	display: flex;
 	justify-content: space-evenly;
@@ -110,7 +115,7 @@ img{
 }
 .single-box {
 	width: 320px;
-	background-color: red;
+	background-color: #EA2C58;
 	padding: 30px 25px;
 	text-align: justify;
 	border-radius: 10px;
@@ -121,8 +126,7 @@ img{
   
   .single-box h3 {
 	padding: 20px 0 10px;
-	font-size: 22px;
-    
+	font-size: 22px; 
 }
 
 #color-1 {
@@ -134,3 +138,85 @@ img{
   #color-3 {
     background-color: #ffcccc;
   }
+  /* About Area Css */
+  
+.about {
+  display: flex;
+  margin-top: 50px
+}
+.about-img img {
+  border: 15px solid #EEEEEE;
+}
+.about-us {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 80px;
+}
+.single-about-box img {
+  width: 25px;
+}
+.about-content {
+  text-align: left;
+}
+.about-content h3 {
+  margin-bottom: 25px;
+  font-size: 25px;
+  text-transform: capitalize;
+}
+.single-about-box {
+  width: 125px;
+  border: 2px solid #EEEEEE;
+  height: 110px;
+  padding: 10px;
+  text-align: center;
+}
+.single-about-box h3 {
+  margin: 6px 0;
+  color:#EA2C58;
+  font-size: 20px;
+}
+.single-about-box p {
+  font-size: 14px;
+  text-transform: capitalize;
+}
+/* Contact Area Css */
+
+.contact-area {
+  height: 200px;
+  width: 800px;
+  background-color: #f7f1e3;
+  display: inline-block;
+  margin-top: 20px;
+}
+.contact-form {
+  padding: 80px 0;
+}
+
+.email-fild {
+  width: 300px;
+  height: 36px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  padding: 22px;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: #dfe6e9;
+}
+.btn-contact {
+	display: inline-block;
+	margin-left: -15px;
+}
+/* Footer Area Css */
+
+.footer.text-center {
+  height: 150px;
+  background-color: #333;
+  color: #fff;
+  padding: 60px;
+}
+.footer p {
+  color: #fff;
+  margin-top: 5px;
+  font-size: 12px;
+}
