@@ -4,3 +4,133 @@
     padding: 0;
     box-sizing: border-box;
 }
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.text-center{
+    text-align: center;
+}
+.pt-100{
+    padding-top: 100px;
+}
+.pb-100{
+    padding-bottom: 100px;
+}
+/* Common Button Css */
+.btn a{
+	background-color: #EA2C58;
+	color: #fff;
+	padding: 12px 30px;
+	border-radius: 5px;
+	text-transform: capitalize;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 17px;
+}
+/* Banner Css */
+.banner-area{
+    background-image: url(../images/banner/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.banner-content {
+	color: #fff;
+	padding-top: 250px;
+	text-align: center;
+}
+.banner-content h1 {
+    font-size: 50px;
+    text-transform: capitalize;
+  }
+  .banner-content p {
+    padding: 20px 0 30px;
+    font-size: 17px;
+  }
+
+/* Donation Css */
+  .donation-amount-box {
+	display: flex;
+	justify-content: center;
+}
+.single-donation-amount {
+	height: 100px;
+	width: 120px;
+	margin-right: 30px;
+	padding: 35px 25px;
+	background-color: #f5f6fa;
+	border-radius: 5px;
+	color: #596275;
+}
+  
+.section-title h3 {
+    font-size: 40px;
+    text-transform: capitalize;
+  }
+  .section-title p {
+    padding: 20px 0 30px;
+    color: #84817a;
+  }
+  
+  .single-donation-amount span {
+    font-weight: 600;
+    font-size: 25px;
+  }
+  #amount-color {
+	color: #EA2C58;
+	border: 2px solid #EA2C58;
+	background-color: #aaa69d;
+}
+.amount-input {
+	width: 670px;
+	height: 40px;
+	text-align: center;
+	border: none;
+	border-bottom: 1px solid #84817a;
+	font-size: 16px;
+	outline: none;
+    margin: 30px 0 20px;
+}
+/* Donate plan Css */
+.donate-plan-box {
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 50px;
+}
+.single-box {
+	width: 320px;
+	background-color: red;
+	padding: 30px 25px;
+	text-align: justify;
+	border-radius: 10px;
+}
+  .single-box img {
+    width: 50px;
+  }
+  
+  .single-box h3 {
+	padding: 20px 0 10px;
+	font-size: 22px;
+    
+}
+
+#color-1 {
+	background-color: #ffda79;
+}
+  #color-2 {
+    background-color: #c7ecee;
+  }
+  #color-3 {
+    background-color: #ffcccc;
+  }
