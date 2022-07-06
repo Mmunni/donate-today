@@ -37,7 +37,7 @@ p{
 }
 .section-title p {
   padding: 20px 0 50px;
-  text-transform: capitalize;
+ font-size: 15px;
  
 }
 /* Common Button Css */
@@ -54,7 +54,7 @@ p{
 }
 /* Banner Area Css */
 .banner-area{
-    background-image: url(../images/banner/banner.jpg);
+    background-image: url(../images/banner/banner-img.jpg);
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -65,7 +65,7 @@ p{
 	text-align: center;
 }
 .banner-content h1 {
-    font-size: 50px;
+    font-size: 60px;
     text-transform: capitalize;
   }
   .banner-content p {
@@ -210,15 +210,20 @@ p{
 	margin-left: -15px;
 }
 /* Footer Area Css */
-
-.footer.text-center {
-  height: 150px;
-  background-color: #333;
+.footer {
+  height: 100px;
+  background-color:  #0B0D17;
   color: #fff;
-  padding: 60px;
+  padding: 20px;
+}
+.footer h4{
+  font-family: 'Lobster', cursive;
+  text-transform: capitalize;
+  color: #EA2C58;
+  margin: 10px auto;
+  font-size: 25px;
 }
 .footer p {
   color: #fff;
-  margin-top: 5px;
-  font-size: 12px;
+  font-size: 10px;
 }
